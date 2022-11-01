@@ -26,7 +26,7 @@
 		<property name="regexFilter" value=".*"/>
 	</bean>
 
-	<bean name="whiteBoxViewMetadataNames" class="java.util.ArrayList">
+	<bean name="whiteBoxViewMetadataNames" primary="true" class="java.util.ArrayList">
 		<constructor-arg>
 			<list>
 				<value>storageId</value>
